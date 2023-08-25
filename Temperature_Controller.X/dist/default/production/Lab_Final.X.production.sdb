@@ -1,0 +1,1867 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"39 C:\Users\Win7\MPLABXProjects\Lab_Final.X\TFT_ST7735.h
+[e E3559 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+[e E3381 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+[e E3381 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+[e E3381 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+[e E3381 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+[e E3583 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"464 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"73 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+"10 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Soft.c
+[v _I2C_Init I2C_Init `(v  1 e 0 0 ]
+"16
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+"37
+[v _I2C_Write I2C_Write `(v  1 e 0 0 ]
+"53
+[v _i2cNack i2cNack `(v  1 e 0 0 ]
+"59
+[v _i2cAck i2cAck `(v  1 e 0 0 ]
+"67
+[v _I2C_Start I2C_Start `(v  1 e 0 0 ]
+"75
+[v _I2C_ReStart I2C_ReStart `(v  1 e 0 0 ]
+"84
+[v _I2C_Stop I2C_Stop `(v  1 e 0 0 ]
+"92
+[v _i2cHighSda i2cHighSda `(v  1 e 0 0 ]
+"98
+[v _i2cLowSda i2cLowSda `(v  1 e 0 0 ]
+"105
+[v _i2cHighScl i2cHighScl `(v  1 e 0 0 ]
+"111
+[v _i2cLowScl i2cLowScl `(v  1 e 0 0 ]
+"118
+[v _I2C_Write_Address_Read_One_Byte I2C_Write_Address_Read_One_Byte `(uc  1 e 1 0 ]
+"131
+[v _I2C_Write_Address_Write_One_Byte I2C_Write_Address_Write_One_Byte `(v  1 e 0 0 ]
+"140
+[v _I2C_Write_Cmd_Only I2C_Write_Cmd_Only `(v  1 e 0 0 ]
+"148
+[v _I2C_Write_Cmd_Write_Data I2C_Write_Cmd_Write_Data `(v  1 e 0 0 ]
+"13 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Support.c
+[v _DS1621_Init DS1621_Init `(v  1 e 0 0 ]
+"20
+[v _DS1621_Read_Temp DS1621_Read_Temp `(i  1 e 2 0 ]
+"35
+[v _DS3231_Read_Time DS3231_Read_Time `(v  1 e 0 0 ]
+"54
+[v _DS3231_Write_Time DS3231_Write_Time `(v  1 e 0 0 ]
+"103
+[v _DS3231_Read_Alarm_Time DS3231_Read_Alarm_Time `(v  1 e 0 0 ]
+"119
+[v _DS3231_Init DS3231_Init `(v  1 e 0 0 ]
+"156
+[v _DS3231_Write_Alarm_Time DS3231_Write_Alarm_Time `(v  1 e 0 0 ]
+"180
+[v _DS3231_Turn_Off_Alarm DS3231_Turn_Off_Alarm `(v  1 e 0 0 ]
+"199
+[v _DS3231_Turn_On_Alarm DS3231_Turn_On_Alarm `(v  1 e 0 0 ]
+"218
+[v _bcd_2_dec bcd_2_dec `(i  1 e 2 0 ]
+"225
+[v _dec_2_bcd dec_2_bcd `(i  1 e 2 0 ]
+"8 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Interrupt.c
+[v _Init_Interrupt Init_Interrupt `(v  1 e 0 0 ]
+"22
+[v _chkisr chkisr `IIH(v  1 e 0 0 ]
+"30
+[v _INT0_ISR INT0_ISR `(v  1 e 0 0 ]
+"37
+[v _INT1_ISR INT1_ISR `(v  1 e 0 0 ]
+"44
+[v _INT2_ISR INT2_ISR `(v  1 e 0 0 ]
+"51
+[v _T0_ISR T0_ISR `(v  1 e 0 0 ]
+"88 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main.c
+[v _putch putch `(v  1 e 0 0 ]
+"94
+[v _init_UART init_UART `(v  1 e 0 0 ]
+"100
+[v _Init_ADC Init_ADC `(v  1 e 0 0 ]
+"107
+[v _Init_IO Init_IO `(v  1 e 0 0 ]
+"116
+[v _Do_Init Do_Init `(v  1 e 0 0 ]
+"140
+[v _main main `(v  1 e 0 0 ]
+"168
+[v _Main_Screen Main_Screen `(v  1 e 0 0 ]
+"211
+[v _Do_Setup Do_Setup `(v  1 e 0 0 ]
+"236
+[v _Get_Temp Get_Temp `(v  1 e 0 0 ]
+"255
+[v _Monitor_Fan Monitor_Fan `(v  1 e 0 0 ]
+"266
+[v _read_volt read_volt `(f  1 e 3 0 ]
+"273
+[v _get_duty_cycle get_duty_cycle `(i  1 e 2 0 ]
+"289
+[v _get_RPM get_RPM `(i  1 e 2 0 ]
+"296
+[v _Turn_Off_Fan Turn_Off_Fan `(v  1 e 0 0 ]
+"305
+[v _Turn_On_Fan Turn_On_Fan `(v  1 e 0 0 ]
+"311
+[v _do_update_pwm do_update_pwm `(v  1 e 0 0 ]
+"325
+[v _get_full_ADC get_full_ADC `(ui  1 e 2 0 ]
+"335
+[v _Activate_Buzzer Activate_Buzzer `(v  1 e 0 0 ]
+"343
+[v _Deactivate_Buzzer Deactivate_Buzzer `(v  1 e 0 0 ]
+"349
+[v _Test_Alarm Test_Alarm `(v  1 e 0 0 ]
+"414
+[v _Set_RGB_Color Set_RGB_Color `(v  1 e 0 0 ]
+"33 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main_Screen.c
+[v _Initialize_Screen Initialize_Screen `(v  1 e 0 0 ]
+"72
+[v _Update_Screen Update_Screen `(v  1 e 0 0 ]
+"19 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Setup_Alarm_Time.c
+[v _Setup_Alarm_Time Setup_Alarm_Time `(v  1 e 0 0 ]
+"121
+[v _Initialize_Setup_Alarm_Time_Screen Initialize_Setup_Alarm_Time_Screen `(v  1 e 0 0 ]
+"137
+[v _Update_Setup_Alarm_Time_Screen Update_Setup_Alarm_Time_Screen `(v  1 e 0 0 ]
+"17 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Setup_Fan_Temp.c
+[v _Setup_Temp_Fan Setup_Temp_Fan `(v  1 e 0 0 ]
+"77
+[v _Initialize_Setup_Fan_Screen Initialize_Setup_Fan_Screen `(v  1 e 0 0 ]
+"91
+[v _Update_Setup_Fan_Screen Update_Setup_Fan_Screen `(v  1 e 0 0 ]
+"28 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Setup_Time.c
+[v _Setup_Time Setup_Time `(v  1 e 0 0 ]
+"162
+[v _Initialize_Setup_Time_Screen Initialize_Setup_Time_Screen `(v  1 e 0 0 ]
+"181
+[v _Update_Setup_Time_Screen Update_Setup_Time_Screen `(v  1 e 0 0 ]
+"200
+[v _Update_Setup_Screen_Cursor Update_Setup_Screen_Cursor `(v  1 e 0 0 ]
+"7 C:\Users\Win7\MPLABXProjects\Lab_Final.X\TFT_ST7735.c
+[v _delay_ms delay_ms `(v  1 e 0 0 ]
+"132
+[v _spiwrite spiwrite `(v  1 e 0 0 ]
+"141
+[v _write_command write_command `(v  1 e 0 0 ]
+"152
+[v _write_data write_data `(v  1 e 0 0 ]
+"160
+[v _LCD_Reset LCD_Reset `(v  1 e 0 0 ]
+"224
+[v _Rcmd1 Rcmd1 `(v  1 e 0 0 ]
+"271
+[v _Rcmd2red Rcmd2red `(v  1 e 0 0 ]
+"281
+[v _Rcmd3 Rcmd3 `(v  1 e 0 0 ]
+"335
+[v _setAddrWindow setAddrWindow `(v  1 e 0 0 ]
+"350
+[v _drawPixel drawPixel `(v  1 e 0 0 ]
+"359
+[v _drawFastVLine drawFastVLine `(v  1 e 0 0 ]
+"380
+[v _fillRect fillRect `(v  1 e 0 0 ]
+"390
+[v _drawChar drawChar `(v  1 e 0 0 ]
+"417
+[v _drawtext drawtext `(v  1 e 0 0 ]
+"435
+[v _Rcmd2green Rcmd2green `(v  1 e 0 0 ]
+"446
+[v _fillRectangle fillRectangle `(v  1 e 0 0 ]
+"471
+[v _drawCircle drawCircle `(v  1 e 0 0 ]
+"532
+[v _fillCircleHelper fillCircleHelper `(v  1 e 0 0 ]
+"562
+[v _fillScreen fillScreen `(v  1 e 0 0 ]
+"567
+[v _drawFastHLine drawFastHLine `(v  1 e 0 0 ]
+"587
+[v _TFT_GreenTab_Initialize TFT_GreenTab_Initialize `(v  1 e 0 0 ]
+[s S618 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"98 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic18f4620.h
+[s S627 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+]
+[s S631 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SS 1 0 :1:5 
+]
+[s S634 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_SS 1 0 :1:5 
+]
+[s S637 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 nSS 1 0 :1:5 
+]
+[s S640 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S643 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S646 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RJPU 1 0 :1:7 
+]
+[s S649 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S651 . 1 `S618 1 . 1 0 `S627 1 . 1 0 `S631 1 . 1 0 `S634 1 . 1 0 `S637 1 . 1 0 `S640 1 . 1 0 `S643 1 . 1 0 `S646 1 . 1 0 `S649 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES651  1 e 1 @3968 ]
+[s S969 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"228
+[s S978 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S987 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S996 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S999 . 1 `S969 1 . 1 0 `S978 1 . 1 0 `S987 1 . 1 0 `S996 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES999  1 e 1 @3969 ]
+[s S1044 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"571
+[s S1053 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S1062 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S1067 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S1070 . 1 `S1044 1 . 1 0 `S1053 1 . 1 0 `S1062 1 . 1 0 `S1067 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES1070  1 e 1 @3971 ]
+[s S239 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"799
+[s S244 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 MCLR 1 0 :1:3 
+]
+[s S249 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S251 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S254 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S257 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_MCLR 1 0 :1:3 
+]
+[s S260 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+]
+[s S265 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 VPP 1 0 :1:3 
+]
+[s S270 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CCP10 1 0 :1:2 
+]
+[s S273 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CCP2E 1 0 :1:7 
+]
+[s S276 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CCP6E 1 0 :1:6 
+]
+[s S279 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 CCP7E 1 0 :1:5 
+]
+[s S282 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CCP8E 1 0 :1:4 
+]
+[s S285 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S288 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PA2E 1 0 :1:7 
+]
+[s S291 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PB1E 1 0 :1:6 
+]
+[s S294 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PB2 1 0 :1:2 
+]
+[s S297 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 PB3E 1 0 :1:4 
+]
+[s S300 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 PC1E 1 0 :1:5 
+]
+[s S303 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+]
+[s S306 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 PC3E 1 0 :1:3 
+]
+[s S309 . 1 `uc 1 PD2 1 0 :1:0 
+]
+[s S311 . 1 `uc 1 RDE 1 0 :1:0 
+]
+[s S313 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RE4 1 0 :1:4 
+]
+[s S316 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RE5 1 0 :1:5 
+]
+[s S319 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RE6 1 0 :1:6 
+]
+[s S322 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RE7 1 0 :1:7 
+]
+[s S325 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+]
+[u S328 . 1 `S239 1 . 1 0 `S244 1 . 1 0 `S249 1 . 1 0 `S251 1 . 1 0 `S254 1 . 1 0 `S257 1 . 1 0 `S260 1 . 1 0 `S265 1 . 1 0 `S270 1 . 1 0 `S273 1 . 1 0 `S276 1 . 1 0 `S279 1 . 1 0 `S282 1 . 1 0 `S285 1 . 1 0 `S288 1 . 1 0 `S291 1 . 1 0 `S294 1 . 1 0 `S297 1 . 1 0 `S300 1 . 1 0 `S303 1 . 1 0 `S306 1 . 1 0 `S309 1 . 1 0 `S311 1 . 1 0 `S313 1 . 1 0 `S316 1 . 1 0 `S319 1 . 1 0 `S322 1 . 1 0 `S325 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES328  1 e 1 @3972 ]
+"1633
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1854
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2075
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S2698 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"2107
+[s S2707 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S2716 . 1 `S2698 1 . 1 0 `S2707 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES2716  1 e 1 @3988 ]
+"2296
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S1732 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2328
+[u S1750 . 1 `S1732 1 . 1 0 `S1044 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES1750  1 e 1 @3989 ]
+"2517
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S2661 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"2769
+[s S2670 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[s S2673 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+]
+[u S2676 . 1 `S2661 1 . 1 0 `S2670 1 . 1 0 `S2673 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES2676  1 e 1 @3997 ]
+[s S2045 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2848
+[s S2054 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S2057 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+]
+[u S2060 . 1 `S2045 1 . 1 0 `S2054 1 . 1 0 `S2057 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES2060  1 e 1 @3998 ]
+[s S1957 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"3067
+[s S1966 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+]
+[u S1969 . 1 `S1957 1 . 1 0 `S1966 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1969  1 e 1 @4001 ]
+"3265
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+[s S2587 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3306
+[s S2596 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S2599 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S2602 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S2605 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S2608 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S2610 . 1 `S2587 1 . 1 0 `S2596 1 . 1 0 `S2599 1 . 1 0 `S2602 1 . 1 0 `S2605 1 . 1 0 `S2608 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES2610  1 e 1 @4011 ]
+"3474
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S2500 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3534
+[s S2509 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S2512 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S2515 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S2518 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S2521 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S2524 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S2527 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S2529 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[s S2532 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S2535 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S2537 . 1 `S2500 1 . 1 0 `S2509 1 . 1 0 `S2512 1 . 1 0 `S2515 1 . 1 0 `S2518 1 . 1 0 `S2521 1 . 1 0 `S2524 1 . 1 0 `S2527 1 . 1 0 `S2529 1 . 1 0 `S2532 1 . 1 0 `S2535 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES2537  1 e 1 @4012 ]
+"3771
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3793
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3804
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"3810
+[v _T3CON T3CON `VEuc  1 e 1 @4017 ]
+[s S1985 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T3SYNC 1 0 :1:2 
+]
+"3849
+[s S1988 . 1 `uc 1 TMR3ON 1 0 :1:0 
+`uc 1 TMR3CS 1 0 :1:1 
+`uc 1 nT3SYNC 1 0 :1:2 
+`uc 1 T3CCP1 1 0 :1:3 
+`uc 1 T3CKPS 1 0 :2:4 
+`uc 1 T3CCP2 1 0 :1:6 
+`uc 1 RD16 1 0 :1:7 
+]
+[s S1996 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T3SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T3CKPS0 1 0 :1:4 
+`uc 1 T3CKPS1 1 0 :1:5 
+]
+[s S2002 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RD163 1 0 :1:7 
+]
+[s S2005 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN3 1 0 :1:3 
+]
+[s S2008 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 T3RD16 1 0 :1:7 
+]
+[u S2011 . 1 `S1985 1 . 1 0 `S1988 1 . 1 0 `S1996 1 . 1 0 `S2002 1 . 1 0 `S2005 1 . 1 0 `S2008 1 . 1 0 ]
+[v _T3CONbits T3CONbits `VES2011  1 e 1 @4017 ]
+"4435
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+"4519
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"4531
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"4633
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"4645
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"4715
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4805
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S890 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4853
+[s S893 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S900 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S907 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S910 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S913 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S916 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S919 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S922 . 1 `S890 1 . 1 0 `S893 1 . 1 0 `S890 1 . 1 0 `S900 1 . 1 0 `S907 1 . 1 0 `S910 1 . 1 0 `S913 1 . 1 0 `S916 1 . 1 0 `S919 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES922  1 e 1 @4034 ]
+"4933
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"4939
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"5006
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"5075
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+[s S2081 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"5170
+[s S2084 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S2087 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S2102 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S2107 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S2112 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S2117 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S2122 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S2125 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S2128 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S2133 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DA 1 0 :1:5 
+]
+[s S2136 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+]
+[s S2139 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 START 1 0 :1:3 
+]
+[s S2142 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 STOP 1 0 :1:4 
+]
+[s S2145 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S2148 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S2151 . 1 `S2081 1 . 1 0 `S2084 1 . 1 0 `S2087 1 . 1 0 `S2081 1 . 1 0 `S2084 1 . 1 0 `S2102 1 . 1 0 `S2107 1 . 1 0 `S2112 1 . 1 0 `S2117 1 . 1 0 `S2122 1 . 1 0 `S2125 1 . 1 0 `S2128 1 . 1 0 `S2133 1 . 1 0 `S2136 1 . 1 0 `S2139 1 . 1 0 `S2142 1 . 1 0 `S2145 1 . 1 0 `S2148 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES2151  1 e 1 @4039 ]
+"5320
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"5326
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"5396
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"5511
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+"5621
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"6061
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"6137
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+[s S208 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6159
+[s S215 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S221 . 1 `S208 1 . 1 0 `S215 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES221  1 e 1 @4053 ]
+"6219
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6225
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S108 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 INT2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1IE 1 0 :1:3 
+`uc 1 INT2IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1IP 1 0 :1:6 
+`uc 1 INT2IP 1 0 :1:7 
+]
+"6497
+[s S117 . 1 `uc 1 INT1F 1 0 :1:0 
+`uc 1 INT2F 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 INT1E 1 0 :1:3 
+`uc 1 INT2E 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 INT1P 1 0 :1:6 
+`uc 1 INT2P 1 0 :1:7 
+]
+[u S126 . 1 `S108 1 . 1 0 `S117 1 . 1 0 ]
+[v _INTCON3bits INTCON3bits `VES126  1 e 1 @4080 ]
+[s S148 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"6586
+[s S151 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S160 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S163 . 1 `S148 1 . 1 0 `S151 1 . 1 0 `S160 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES163  1 e 1 @4081 ]
+[s S21 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6682
+[s S30 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S39 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S48 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S57 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S61 . 1 `S21 1 . 1 0 `S30 1 . 1 0 `S39 1 . 1 0 `S48 1 . 1 0 `S57 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES61  1 e 1 @4082 ]
+"7716
+[v _RBPU RBPU `VEb  1 e 0 @32655 ]
+"8088
+[v _TRMT TRMT `VEb  1 e 0 @32097 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+"362
+[v _hexpowers hexpowers `C[4]ui  1 s 8 hexpowers ]
+"48 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main.c
+[v _buffer buffer `[31]uc  1 e 31 0 ]
+"50
+[v _txt txt `*.39uc  1 e 2 0 ]
+"51
+[v _tempC tempC `[4]uc  1 e 4 0 ]
+"52
+[v _tempF tempF `[4]uc  1 e 4 0 ]
+"53
+[v _time time `[9]uc  1 e 9 0 ]
+"54
+[v _date date `[9]uc  1 e 9 0 ]
+"55
+[v _alarm_time alarm_time `[9]uc  1 e 9 0 ]
+"56
+[v _Alarm_SW_Txt Alarm_SW_Txt `[4]uc  1 e 4 0 ]
+"57
+[v _Fan_SW_Txt Fan_SW_Txt `[4]uc  1 e 4 0 ]
+"58
+[v _Fan_Set_Temp_Txt Fan_Set_Temp_Txt `[5]uc  1 e 5 0 ]
+"59
+[v _Volt_Txt Volt_Txt `[6]uc  1 e 6 0 ]
+"60
+[v _DC_Txt DC_Txt `[4]uc  1 e 4 0 ]
+"61
+[v _RTC_ALARM_Txt RTC_ALARM_Txt `[2]uc  1 e 2 0 ]
+"62
+[v _RPM_Txt RPM_Txt `[5]uc  1 e 5 0 ]
+"64
+[v _setup_time setup_time `[9]uc  1 e 9 0 ]
+"65
+[v _setup_date setup_date `[9]uc  1 e 9 0 ]
+"66
+[v _setup_alarm_time setup_alarm_time `[9]uc  1 e 9 0 ]
+"67
+[v _setup_fan_text setup_fan_text `[5]uc  1 e 5 0 ]
+"69
+[v _DS1621_tempC DS1621_tempC `i  1 e 2 0 ]
+[v _DS1621_tempF DS1621_tempF `i  1 e 2 0 ]
+"71
+[v _INT0_flag INT0_flag `i  1 e 2 0 ]
+[v _INT1_flag INT1_flag `i  1 e 2 0 ]
+[v _INT2_flag INT2_flag `i  1 e 2 0 ]
+[v _Tach_cnt Tach_cnt `i  1 e 2 0 ]
+"72
+[v _ALARMEN ALARMEN `i  1 e 2 0 ]
+"73
+[v _FANEN FANEN `i  1 e 2 0 ]
+"74
+[v _alarm_mode alarm_mode `i  1 e 2 0 ]
+[v _MATCHED MATCHED `i  1 e 2 0 ]
+"75
+[v _color color `i  1 e 2 0 ]
+"76
+[v _second second `uc  1 e 1 0 ]
+[v _minute minute `uc  1 e 1 0 ]
+[v _hour hour `uc  1 e 1 0 ]
+[v _dow dow `uc  1 e 1 0 ]
+[v _day day `uc  1 e 1 0 ]
+[v _month month `uc  1 e 1 0 ]
+[v _year year `uc  1 e 1 0 ]
+[v _old_sec old_sec `uc  1 e 1 0 ]
+"77
+[v _alarm_second alarm_second `uc  1 e 1 0 ]
+[v _alarm_minute alarm_minute `uc  1 e 1 0 ]
+[v _alarm_hour alarm_hour `uc  1 e 1 0 ]
+[v _alarm_date alarm_date `uc  1 e 1 0 ]
+"78
+[v _setup_alarm_second setup_alarm_second `uc  1 e 1 0 ]
+[v _setup_alarm_minute setup_alarm_minute `uc  1 e 1 0 ]
+[v _setup_alarm_hour setup_alarm_hour `uc  1 e 1 0 ]
+"79
+[v _setup_second setup_second `uc  1 e 1 0 ]
+[v _setup_minute setup_minute `uc  1 e 1 0 ]
+[v _setup_hour setup_hour `uc  1 e 1 0 ]
+[v _setup_day setup_day `uc  1 e 1 0 ]
+[v _setup_month setup_month `uc  1 e 1 0 ]
+[v _setup_year setup_year `uc  1 e 1 0 ]
+"80
+[v _setup_fan_temp setup_fan_temp `uc  1 e 1 0 ]
+"81
+[v _volt volt `f  1 e 3 0 ]
+"82
+[v _duty_cycle duty_cycle `i  1 e 2 0 ]
+"83
+[v _rpm rpm `i  1 e 2 0 ]
+"29 C:\Users\Win7\MPLABXProjects\Lab_Final.X\TFT_ST7735.c
+[v _font font `C[255]uc  1 e 255 0 ]
+"84
+[v _font2 font2 `C[220]uc  1 e 220 0 ]
+"39 C:\Users\Win7\MPLABXProjects\Lab_Final.X\TFT_ST7735.h
+[v _wrap wrap `E3559  1 e 1 0 ]
+"42
+[v _colstart colstart `uc  1 e 1 0 ]
+[v _rowstart rowstart `uc  1 e 1 0 ]
+[v __tft_type _tft_type `uc  1 e 1 0 ]
+"140 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"166
+} 0
+"168
+[v _Main_Screen Main_Screen `(v  1 e 0 0 ]
+{
+"209
+} 0
+"305
+[v _Turn_On_Fan Turn_On_Fan `(v  1 e 0 0 ]
+{
+"309
+} 0
+"296
+[v _Turn_Off_Fan Turn_Off_Fan `(v  1 e 0 0 ]
+{
+"303
+} 0
+"349
+[v _Test_Alarm Test_Alarm `(v  1 e 0 0 ]
+{
+"412
+} 0
+"266
+[v _read_volt read_volt `(f  1 e 3 0 ]
+{
+"268
+[v read_volt@nStep nStep `i  1 a 2 0 ]
+"271
+} 0
+"325
+[v _get_full_ADC get_full_ADC `(ui  1 e 2 0 ]
+{
+"327
+[v get_full_ADC@result result `ui  1 a 2 19 ]
+"333
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 26 ]
+"32
+[v ___awtoft@c c `i  1 p 2 23 ]
+"42
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 2 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 5 ]
+"13
+} 0
+"72 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main_Screen.c
+[v _Update_Screen Update_Screen `(v  1 e 0 0 ]
+{
+"90
+[v Update_Screen@neg_tempF neg_tempF `i  1 a 2 59 ]
+"168
+} 0
+"414 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main.c
+[v _Set_RGB_Color Set_RGB_Color `(v  1 e 0 0 ]
+{
+"415
+[v Set_RGB_Color@color color `uc  1 a 1 wreg ]
+[v Set_RGB_Color@color color `uc  1 a 1 wreg ]
+"414
+[v Set_RGB_Color@color color `uc  1 a 1 15 ]
+"427
+} 0
+"343
+[v _Deactivate_Buzzer Deactivate_Buzzer `(v  1 e 0 0 ]
+{
+"347
+} 0
+"199 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Support.c
+[v _DS3231_Turn_On_Alarm DS3231_Turn_On_Alarm `(v  1 e 0 0 ]
+{
+"201
+[v DS3231_Turn_On_Alarm@Device Device `uc  1 a 1 29 ]
+"205
+[v DS3231_Turn_On_Alarm@control_F control_F `uc  1 a 1 28 ]
+"204
+[v DS3231_Turn_On_Alarm@control_E control_E `uc  1 a 1 27 ]
+"203
+[v DS3231_Turn_On_Alarm@Address_F Address_F `uc  1 a 1 26 ]
+"202
+[v DS3231_Turn_On_Alarm@Address_E Address_E `uc  1 a 1 25 ]
+"216
+} 0
+"180
+[v _DS3231_Turn_Off_Alarm DS3231_Turn_Off_Alarm `(v  1 e 0 0 ]
+{
+"182
+[v DS3231_Turn_Off_Alarm@Device Device `uc  1 a 1 29 ]
+"186
+[v DS3231_Turn_Off_Alarm@control_F control_F `uc  1 a 1 28 ]
+"185
+[v DS3231_Turn_Off_Alarm@control_E control_E `uc  1 a 1 27 ]
+"184
+[v DS3231_Turn_Off_Alarm@Address_F Address_F `uc  1 a 1 26 ]
+"183
+[v DS3231_Turn_Off_Alarm@Address_E Address_E `uc  1 a 1 25 ]
+"197
+} 0
+"119
+[v _DS3231_Init DS3231_Init `(v  1 e 0 0 ]
+{
+"121
+[v DS3231_Init@Device Device `uc  1 a 1 24 ]
+"124
+[v DS3231_Init@control_E control_E `uc  1 a 1 23 ]
+"123
+[v DS3231_Init@Address_E Address_E `uc  1 a 1 22 ]
+"122
+[v DS3231_Init@Address_7 Address_7 `uc  1 a 1 21 ]
+"154
+} 0
+"131 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Soft.c
+[v _I2C_Write_Address_Write_One_Byte I2C_Write_Address_Write_One_Byte `(v  1 e 0 0 ]
+{
+[v I2C_Write_Address_Write_One_Byte@Device Device `uc  1 a 1 wreg ]
+[v I2C_Write_Address_Write_One_Byte@Device Device `uc  1 a 1 wreg ]
+[v I2C_Write_Address_Write_One_Byte@Address Address `uc  1 p 1 17 ]
+[v I2C_Write_Address_Write_One_Byte@Data_Out Data_Out `uc  1 p 1 18 ]
+"133
+[v I2C_Write_Address_Write_One_Byte@Device Device `uc  1 a 1 19 ]
+"138
+} 0
+"118
+[v _I2C_Write_Address_Read_One_Byte I2C_Write_Address_Read_One_Byte `(uc  1 e 1 0 ]
+{
+[v I2C_Write_Address_Read_One_Byte@Device Device `uc  1 a 1 wreg ]
+"120
+[v I2C_Write_Address_Read_One_Byte@Data_Ret Data_Ret `uc  1 a 1 19 ]
+"118
+[v I2C_Write_Address_Read_One_Byte@Device Device `uc  1 a 1 wreg ]
+[v I2C_Write_Address_Read_One_Byte@Address Address `uc  1 p 1 18 ]
+"121
+[v I2C_Write_Address_Read_One_Byte@Device Device `uc  1 a 1 20 ]
+"129
+} 0
+"335 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main.c
+[v _Activate_Buzzer Activate_Buzzer `(v  1 e 0 0 ]
+{
+"341
+} 0
+"255
+[v _Monitor_Fan Monitor_Fan `(v  1 e 0 0 ]
+{
+"264
+} 0
+"273
+[v _get_duty_cycle get_duty_cycle `(i  1 e 2 0 ]
+{
+"275
+[v get_duty_cycle@dc dc `i  1 a 2 21 ]
+"273
+[v get_duty_cycle@temp temp `i  1 p 2 15 ]
+[v get_duty_cycle@set_temp set_temp `i  1 p 2 17 ]
+"287
+} 0
+"289
+[v _get_RPM get_RPM `(i  1 e 2 0 ]
+{
+"291
+[v get_RPM@RPS RPS `i  1 a 2 23 ]
+"293
+} 0
+"311
+[v _do_update_pwm do_update_pwm `(v  1 e 0 0 ]
+{
+"312
+[v do_update_pwm@duty_cycle duty_cycle `uc  1 a 1 wreg ]
+"313
+[v do_update_pwm@dc_f dc_f `f  1 a 3 0 ]
+"314
+[v do_update_pwm@dc_I dc_I `i  1 a 2 4 ]
+"312
+[v do_update_pwm@duty_cycle duty_cycle `uc  1 a 1 wreg ]
+"315
+[v do_update_pwm@duty_cycle duty_cycle `uc  1 a 1 3 ]
+"323
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 26 ]
+"30
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 25 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 29 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 24 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 15 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 37 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 41 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 40 ]
+[v ___ftmul@exp exp `uc  1 a 1 36 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 27 ]
+[v ___ftmul@f2 f2 `f  1 p 3 30 ]
+"157
+} 0
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 52 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 56 ]
+[v ___ftdiv@exp exp `uc  1 a 1 55 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 51 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 42 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 45 ]
+"86
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 15 ]
+[v ___ftpack@exp exp `uc  1 p 1 18 ]
+[v ___ftpack@sign sign `uc  1 p 1 19 ]
+"86
+} 0
+"236 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main.c
+[v _Get_Temp Get_Temp `(v  1 e 0 0 ]
+{
+"253
+} 0
+"20 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Support.c
+[v _DS1621_Read_Temp DS1621_Read_Temp `(i  1 e 2 0 ]
+{
+"23
+[v DS1621_Read_Temp@Device Device `uc  1 a 1 22 ]
+"25
+[v DS1621_Read_Temp@Cmd Cmd `uc  1 a 1 21 ]
+"24
+[v DS1621_Read_Temp@Data_Ret Data_Ret `uc  1 a 1 20 ]
+"33
+} 0
+"211 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main.c
+[v _Do_Setup Do_Setup `(v  1 e 0 0 ]
+{
+"234
+} 0
+"28 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Setup_Time.c
+[v _Setup_Time Setup_Time `(v  1 e 0 0 ]
+{
+"31
+[v Setup_Time@Select_Field Select_Field `uc  1 a 1 60 ]
+"30
+[v Setup_Time@Key_Dn_Flag Key_Dn_Flag `uc  1 a 1 59 ]
+[v Setup_Time@Key_Up_Flag Key_Up_Flag `uc  1 a 1 58 ]
+[v Setup_Time@Key_Next_Flag Key_Next_Flag `uc  1 a 1 57 ]
+"160
+} 0
+"181
+[v _Update_Setup_Time_Screen Update_Setup_Time_Screen `(v  1 e 0 0 ]
+{
+"198
+} 0
+"162
+[v _Initialize_Setup_Time_Screen Initialize_Setup_Time_Screen `(v  1 e 0 0 ]
+{
+"179
+} 0
+"54 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Support.c
+[v _DS3231_Write_Time DS3231_Write_Time `(v  1 e 0 0 ]
+{
+"57
+[v DS3231_Write_Time@Address Address `uc  1 a 1 52 ]
+"56
+[v DS3231_Write_Time@Device Device `uc  1 a 1 51 ]
+"76
+} 0
+"17 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Setup_Fan_Temp.c
+[v _Setup_Temp_Fan Setup_Temp_Fan `(v  1 e 0 0 ]
+{
+"19
+[v Setup_Temp_Fan@Key_Dn_Flag Key_Dn_Flag `uc  1 a 1 59 ]
+[v Setup_Temp_Fan@Key_Up_Flag Key_Up_Flag `uc  1 a 1 58 ]
+"20
+[v Setup_Temp_Fan@Select_Field Select_Field `uc  1 a 1 57 ]
+"75
+} 0
+"91
+[v _Update_Setup_Fan_Screen Update_Setup_Fan_Screen `(v  1 e 0 0 ]
+{
+"98
+} 0
+"77
+[v _Initialize_Setup_Fan_Screen Initialize_Setup_Fan_Screen `(v  1 e 0 0 ]
+{
+"89
+} 0
+"19 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Setup_Alarm_Time.c
+[v _Setup_Alarm_Time Setup_Alarm_Time `(v  1 e 0 0 ]
+{
+"22
+[v Setup_Alarm_Time@Select_Field Select_Field `uc  1 a 1 60 ]
+"21
+[v Setup_Alarm_Time@Key_Dn_Flag Key_Dn_Flag `uc  1 a 1 59 ]
+[v Setup_Alarm_Time@Key_Up_Flag Key_Up_Flag `uc  1 a 1 58 ]
+[v Setup_Alarm_Time@Key_Next_Flag Key_Next_Flag `uc  1 a 1 57 ]
+"119
+} 0
+"464 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"1500
+[v printf@idx idx `uc  1 a 1 45 ]
+"501
+[v printf@width width `i  1 a 2 52 ]
+"528
+[v printf@val val `ui  1 a 2 49 ]
+"466
+[v printf@ap ap `[1]*.39v  1 a 2 46 ]
+"499
+[v printf@c c `c  1 a 1 54 ]
+"508
+[v printf@flag flag `uc  1 a 1 51 ]
+"506
+[v printf@prec prec `c  1 a 1 48 ]
+"464
+[v printf@f f `*.25Cuc  1 p 2 27 ]
+"1541
+} 0
+"88 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main.c
+[v _putch putch `(v  1 e 0 0 ]
+{
+[v putch@c c `uc  1 a 1 wreg ]
+[v putch@c c `uc  1 a 1 wreg ]
+[v putch@c c `uc  1 a 1 15 ]
+"92
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 17 ]
+"15
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 26 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 22 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 24 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 19 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 21 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 15 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 17 ]
+"31
+} 0
+"218 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Support.c
+[v _bcd_2_dec bcd_2_dec `(i  1 e 2 0 ]
+{
+[v bcd_2_dec@bcd bcd `uc  1 a 1 wreg ]
+"220
+[v bcd_2_dec@dec dec `i  1 a 2 19 ]
+"218
+[v bcd_2_dec@bcd bcd `uc  1 a 1 wreg ]
+"221
+[v bcd_2_dec@bcd bcd `uc  1 a 1 21 ]
+"223
+} 0
+"200 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Setup_Time.c
+[v _Update_Setup_Screen_Cursor Update_Setup_Screen_Cursor `(v  1 e 0 0 ]
+{
+[v Update_Setup_Screen_Cursor@cursor_position cursor_position `uc  1 a 1 wreg ]
+"202
+[v Update_Setup_Screen_Cursor@xinc xinc `uc  1 a 1 46 ]
+"203
+[v Update_Setup_Screen_Cursor@yinc yinc `uc  1 a 1 45 ]
+"200
+[v Update_Setup_Screen_Cursor@cursor_position cursor_position `uc  1 a 1 wreg ]
+"202
+[v Update_Setup_Screen_Cursor@cursor_position cursor_position `uc  1 a 1 44 ]
+"237
+} 0
+"137 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Setup_Alarm_Time.c
+[v _Update_Setup_Alarm_Time_Screen Update_Setup_Alarm_Time_Screen `(v  1 e 0 0 ]
+{
+"146
+} 0
+"121
+[v _Initialize_Setup_Alarm_Time_Screen Initialize_Setup_Alarm_Time_Screen `(v  1 e 0 0 ]
+{
+"135
+} 0
+"33 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main_Screen.c
+[v _Initialize_Screen Initialize_Screen `(v  1 e 0 0 ]
+{
+"71
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"15
+[v strcpy@cp cp `*.39uc  1 a 2 19 ]
+"8
+[v strcpy@to to `*.39uc  1 p 2 15 ]
+[v strcpy@from from `*.25Cuc  1 p 2 17 ]
+"24
+} 0
+"562 C:\Users\Win7\MPLABXProjects\Lab_Final.X\TFT_ST7735.c
+[v _fillScreen fillScreen `(v  1 e 0 0 ]
+{
+[v fillScreen@color color `ui  1 p 2 34 ]
+"565
+} 0
+"446
+[v _fillRectangle fillRectangle `(v  1 e 0 0 ]
+{
+[v fillRectangle@x x `uc  1 a 1 wreg ]
+"448
+[v fillRectangle@lo lo `uc  1 a 1 32 ]
+[v fillRectangle@hi hi `uc  1 a 1 31 ]
+"446
+[v fillRectangle@x x `uc  1 a 1 wreg ]
+[v fillRectangle@y y `uc  1 p 1 22 ]
+[v fillRectangle@w w `uc  1 p 1 23 ]
+[v fillRectangle@h h `uc  1 p 1 24 ]
+[v fillRectangle@color color `ui  1 p 2 25 ]
+"449
+[v fillRectangle@x x `uc  1 a 1 33 ]
+"469
+} 0
+"417
+[v _drawtext drawtext `(v  1 e 0 0 ]
+{
+[v drawtext@x x `uc  1 a 1 wreg ]
+"420
+[v drawtext@i i `ui  1 a 2 11 ]
+[v drawtext@textsize textsize `ui  1 a 2 9 ]
+"419
+[v drawtext@cursor_x cursor_x `uc  1 a 1 14 ]
+[v drawtext@cursor_y cursor_y `uc  1 a 1 13 ]
+"417
+[v drawtext@x x `uc  1 a 1 wreg ]
+[v drawtext@y y `uc  1 p 1 0 ]
+[v drawtext@_text _text `*.39uc  1 p 2 1 ]
+[v drawtext@color color `ui  1 p 2 3 ]
+[v drawtext@bg bg `ui  1 p 2 5 ]
+[v drawtext@size size `uc  1 p 1 7 ]
+"421
+[v drawtext@x x `uc  1 a 1 8 ]
+"433
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"6
+[v strlen@cp cp `*.39Cuc  1 a 2 19 ]
+"4
+[v strlen@s s `*.39Cuc  1 p 2 15 ]
+"13
+} 0
+"390 C:\Users\Win7\MPLABXProjects\Lab_Final.X\TFT_ST7735.c
+[v _drawChar drawChar `(v  1 e 0 0 ]
+{
+[v drawChar@x x `uc  1 a 1 wreg ]
+"399
+[v drawChar@line line `uc  1 a 1 51 ]
+"392
+[v drawChar@i i `uc  1 a 1 54 ]
+[v drawChar@j j `uc  1 a 1 53 ]
+"390
+[v drawChar@x x `uc  1 a 1 wreg ]
+[v drawChar@y y `uc  1 p 1 44 ]
+[v drawChar@c c `uc  1 p 1 45 ]
+[v drawChar@color color `ui  1 p 2 46 ]
+[v drawChar@bg bg `ui  1 p 2 48 ]
+[v drawChar@size size `uc  1 p 1 50 ]
+"393
+[v drawChar@x x `uc  1 a 1 52 ]
+"415
+} 0
+"380
+[v _fillRect fillRect `(v  1 e 0 0 ]
+{
+[v fillRect@x x `uc  1 a 1 wreg ]
+"382
+[v fillRect@i i `i  1 a 2 42 ]
+"380
+[v fillRect@x x `uc  1 a 1 wreg ]
+[v fillRect@y y `uc  1 p 1 33 ]
+[v fillRect@w w `uc  1 p 1 34 ]
+[v fillRect@h h `uc  1 p 1 35 ]
+[v fillRect@color color `ui  1 p 2 36 ]
+"384
+[v fillRect@x x `uc  1 a 1 41 ]
+"388
+} 0
+"359
+[v _drawFastVLine drawFastVLine `(v  1 e 0 0 ]
+{
+[v drawFastVLine@x x `uc  1 a 1 wreg ]
+"361
+[v drawFastVLine@lo lo `uc  1 a 1 31 ]
+[v drawFastVLine@hi hi `uc  1 a 1 30 ]
+"359
+[v drawFastVLine@x x `uc  1 a 1 wreg ]
+[v drawFastVLine@y y `uc  1 p 1 22 ]
+[v drawFastVLine@h h `uc  1 p 1 23 ]
+[v drawFastVLine@color color `ui  1 p 2 24 ]
+"362
+[v drawFastVLine@x x `uc  1 a 1 32 ]
+"378
+} 0
+"471
+[v _drawCircle drawCircle `(v  1 e 0 0 ]
+{
+"473
+[v drawCircle@y y `i  1 a 2 44 ]
+[v drawCircle@x x `i  1 a 2 42 ]
+[v drawCircle@f f `i  1 a 2 40 ]
+[v drawCircle@ddF_y ddF_y `i  1 a 2 38 ]
+[v drawCircle@ddF_x ddF_x `i  1 a 2 36 ]
+"471
+[v drawCircle@x0 x0 `i  1 p 2 26 ]
+[v drawCircle@y0 y0 `i  1 p 2 28 ]
+[v drawCircle@r r `i  1 p 2 30 ]
+[v drawCircle@color color `ui  1 p 2 32 ]
+"497
+} 0
+"350
+[v _drawPixel drawPixel `(v  1 e 0 0 ]
+{
+[v drawPixel@x x `uc  1 a 1 wreg ]
+[v drawPixel@x x `uc  1 a 1 wreg ]
+[v drawPixel@y y `uc  1 p 1 22 ]
+[v drawPixel@color color `ui  1 p 2 23 ]
+"352
+[v drawPixel@x x `uc  1 a 1 25 ]
+"357
+} 0
+"335
+[v _setAddrWindow setAddrWindow `(v  1 e 0 0 ]
+{
+[v setAddrWindow@x0 x0 `uc  1 a 1 wreg ]
+[v setAddrWindow@x0 x0 `uc  1 a 1 wreg ]
+[v setAddrWindow@y0 y0 `uc  1 p 1 18 ]
+[v setAddrWindow@x1 x1 `uc  1 p 1 19 ]
+[v setAddrWindow@y1 y1 `uc  1 p 1 20 ]
+"337
+[v setAddrWindow@x0 x0 `uc  1 a 1 21 ]
+"348
+} 0
+"587
+[v _TFT_GreenTab_Initialize TFT_GreenTab_Initialize `(v  1 e 0 0 ]
+{
+"602
+} 0
+"281
+[v _Rcmd3 Rcmd3 `(v  1 e 0 0 ]
+{
+"297
+} 0
+"271
+[v _Rcmd2red Rcmd2red `(v  1 e 0 0 ]
+{
+"279
+} 0
+"224
+[v _Rcmd1 Rcmd1 `(v  1 e 0 0 ]
+{
+"269
+} 0
+"152
+[v _write_data write_data `(v  1 e 0 0 ]
+{
+[v write_data@data_ data_ `uc  1 a 1 wreg ]
+[v write_data@data_ data_ `uc  1 a 1 wreg ]
+"154
+[v write_data@data_ data_ `uc  1 a 1 17 ]
+"158
+} 0
+"141
+[v _write_command write_command `(v  1 e 0 0 ]
+{
+[v write_command@cmd_ cmd_ `uc  1 a 1 wreg ]
+[v write_command@cmd_ cmd_ `uc  1 a 1 wreg ]
+"143
+[v write_command@cmd_ cmd_ `uc  1 a 1 17 ]
+"150
+} 0
+"132
+[v _spiwrite spiwrite `(v  1 e 0 0 ]
+{
+[v spiwrite@spidata spidata `uc  1 a 1 wreg ]
+"134
+[v spiwrite@x x `uc  1 a 1 15 ]
+"132
+[v spiwrite@spidata spidata `uc  1 a 1 wreg ]
+"135
+[v spiwrite@spidata spidata `uc  1 a 1 16 ]
+"139
+} 0
+"160
+[v _LCD_Reset LCD_Reset `(v  1 e 0 0 ]
+{
+"165
+} 0
+"7
+[v _delay_ms delay_ms `(v  1 e 0 0 ]
+{
+"13
+[v delay_ms@count count `i  1 a 2 25 ]
+"7
+[v delay_ms@ms ms `i  1 p 2 21 ]
+"27
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 19 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 15 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 17 ]
+"53
+} 0
+"156 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Support.c
+[v _DS3231_Write_Alarm_Time DS3231_Write_Alarm_Time `(v  1 e 0 0 ]
+{
+"161
+[v DS3231_Write_Alarm_Time@Address Address `uc  1 a 1 52 ]
+"160
+[v DS3231_Write_Alarm_Time@Device Device `uc  1 a 1 51 ]
+"178
+} 0
+"225
+[v _dec_2_bcd dec_2_bcd `(i  1 e 2 0 ]
+{
+[v dec_2_bcd@dec dec `uc  1 a 1 wreg ]
+"227
+[v dec_2_bcd@bcd bcd `i  1 a 2 48 ]
+"225
+[v dec_2_bcd@dec dec `uc  1 a 1 wreg ]
+"228
+[v dec_2_bcd@dec dec `uc  1 a 1 50 ]
+"230
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 35 ]
+[v ___awmod@counter counter `uc  1 a 1 34 ]
+"8
+[v ___awmod@dividend dividend `i  1 p 2 30 ]
+[v ___awmod@divisor divisor `i  1 p 2 32 ]
+"35
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 42 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 41 ]
+[v ___awdiv@counter counter `uc  1 a 1 40 ]
+"8
+[v ___awdiv@dividend dividend `i  1 p 2 36 ]
+[v ___awdiv@divisor divisor `i  1 p 2 38 ]
+"42
+} 0
+"35 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Support.c
+[v _DS3231_Read_Time DS3231_Read_Time `(v  1 e 0 0 ]
+{
+"37
+[v DS3231_Read_Time@Device Device `uc  1 a 1 19 ]
+"38
+[v DS3231_Read_Time@Address Address `uc  1 a 1 18 ]
+"52
+} 0
+"103
+[v _DS3231_Read_Alarm_Time DS3231_Read_Alarm_Time `(v  1 e 0 0 ]
+{
+"105
+[v DS3231_Read_Alarm_Time@Device Device `uc  1 a 1 19 ]
+"106
+[v DS3231_Read_Alarm_Time@Address Address `uc  1 a 1 18 ]
+"117
+} 0
+"16 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Soft.c
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+{
+[v I2C_Read@ack ack `uc  1 a 1 wreg ]
+"18
+[v I2C_Read@inByte inByte `uc  1 a 1 17 ]
+[v I2C_Read@n n `uc  1 a 1 16 ]
+"16
+[v I2C_Read@ack ack `uc  1 a 1 wreg ]
+"19
+[v I2C_Read@ack ack `uc  1 a 1 15 ]
+"35
+} 0
+"53
+[v _i2cNack i2cNack `(v  1 e 0 0 ]
+{
+"57
+} 0
+"59
+[v _i2cAck i2cAck `(v  1 e 0 0 ]
+{
+"65
+} 0
+"75
+[v _I2C_ReStart I2C_ReStart `(v  1 e 0 0 ]
+{
+"82
+} 0
+"116 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main.c
+[v _Do_Init Do_Init `(v  1 e 0 0 ]
+{
+"138
+} 0
+"94
+[v _init_UART init_UART `(v  1 e 0 0 ]
+{
+"98
+} 0
+"73 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+{
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@spbrg spbrg `ui  1 p 2 15 ]
+"75
+[v OpenUSART@config config `uc  1 a 1 17 ]
+"143
+} 0
+"8 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Interrupt.c
+[v _Init_Interrupt Init_Interrupt `(v  1 e 0 0 ]
+{
+"20
+} 0
+"107 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Main.c
+[v _Init_IO Init_IO `(v  1 e 0 0 ]
+{
+"114
+} 0
+"100
+[v _Init_ADC Init_ADC `(v  1 e 0 0 ]
+{
+"105
+} 0
+"10 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Soft.c
+[v _I2C_Init I2C_Init `(v  1 e 0 0 ]
+{
+[v I2C_Init@c c `ul  1 p 4 15 ]
+"14
+} 0
+"13 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Support.c
+[v _DS1621_Init DS1621_Init `(v  1 e 0 0 ]
+{
+"15
+[v DS1621_Init@Device Device `uc  1 a 1 20 ]
+"18
+} 0
+"148 C:\Users\Win7\MPLABXProjects\Lab_Final.X\I2C_Soft.c
+[v _I2C_Write_Cmd_Write_Data I2C_Write_Cmd_Write_Data `(v  1 e 0 0 ]
+{
+[v I2C_Write_Cmd_Write_Data@Device Device `uc  1 a 1 wreg ]
+[v I2C_Write_Cmd_Write_Data@Device Device `uc  1 a 1 wreg ]
+[v I2C_Write_Cmd_Write_Data@Cmd Cmd `uc  1 p 1 17 ]
+[v I2C_Write_Cmd_Write_Data@Data_Out Data_Out `uc  1 p 1 18 ]
+"150
+[v I2C_Write_Cmd_Write_Data@Device Device `uc  1 a 1 19 ]
+"155
+} 0
+"140
+[v _I2C_Write_Cmd_Only I2C_Write_Cmd_Only `(v  1 e 0 0 ]
+{
+[v I2C_Write_Cmd_Only@Device Device `uc  1 a 1 wreg ]
+[v I2C_Write_Cmd_Only@Device Device `uc  1 a 1 wreg ]
+[v I2C_Write_Cmd_Only@Cmd Cmd `uc  1 p 1 17 ]
+"142
+[v I2C_Write_Cmd_Only@Device Device `uc  1 a 1 18 ]
+"146
+} 0
+"37
+[v _I2C_Write I2C_Write `(v  1 e 0 0 ]
+{
+[v I2C_Write@outByte outByte `uc  1 a 1 wreg ]
+"39
+[v I2C_Write@n n `uc  1 a 1 16 ]
+"37
+[v I2C_Write@outByte outByte `uc  1 a 1 wreg ]
+"40
+[v I2C_Write@outByte outByte `uc  1 a 1 15 ]
+"51
+} 0
+"84
+[v _I2C_Stop I2C_Stop `(v  1 e 0 0 ]
+{
+"90
+} 0
+"67
+[v _I2C_Start I2C_Start `(v  1 e 0 0 ]
+{
+"73
+} 0
+"98
+[v _i2cLowSda i2cLowSda `(v  1 e 0 0 ]
+{
+"103
+} 0
+"111
+[v _i2cLowScl i2cLowScl `(v  1 e 0 0 ]
+{
+"116
+} 0
+"92
+[v _i2cHighSda i2cHighSda `(v  1 e 0 0 ]
+{
+"96
+} 0
+"105
+[v _i2cHighScl i2cHighScl `(v  1 e 0 0 ]
+{
+"109
+} 0
+"22 C:\Users\Win7\MPLABXProjects\Lab_Final.X\Interrupt.c
+[v _chkisr chkisr `IIH(v  1 e 0 0 ]
+{
+"28
+} 0
+"51
+[v _T0_ISR T0_ISR `(v  1 e 0 0 ]
+{
+"61
+} 0
+"44
+[v _INT2_ISR INT2_ISR `(v  1 e 0 0 ]
+{
+"49
+} 0
+"37
+[v _INT1_ISR INT1_ISR `(v  1 e 0 0 ]
+{
+"42
+} 0
+"30
+[v _INT0_ISR INT0_ISR `(v  1 e 0 0 ]
+{
+"35
+} 0
